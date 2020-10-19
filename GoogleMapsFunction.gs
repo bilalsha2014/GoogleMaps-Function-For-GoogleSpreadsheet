@@ -7,10 +7,7 @@
 //*/
  
 function GOOGLEMAPS(start_address,end_address,return_type) {
- 
-  // https://www.chicagocomputerclasses.com/
-  // Nov 2017
-  // improvements needed
+
   
   var mapObj = Maps.newDirectionFinder();
   mapObj.setOrigin(start_address);
